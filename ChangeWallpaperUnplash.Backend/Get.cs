@@ -17,7 +17,7 @@ namespace ChangeWallpaperUnplash.Backend
             var json = await httpClient.GetStringAsync(apiUrl); ;
             var jsonObject = JObject.Parse(json);
             var imageUrl = (string)jsonObject["urls"]["full"];
-            string directory = @"" + AppDomain.CurrentDomain.BaseDirectory + "downloads";
+            string directory = @"" + Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\LEOzD\\downloads";
             Directory.CreateDirectory(directory);
             string fileName = directory + @"\" + (string)jsonObject["id"] + ".jpg";
             try

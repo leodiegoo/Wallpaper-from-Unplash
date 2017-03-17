@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeWallpaperUnplash.Back
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeWallpaperUnplash.Utils", "ChangeWallpaperUnplash.Utils\ChangeWallpaperUnplash.Utils.csproj", "{A10D1890-E31F-4BAD-980B-27261C3DFA6D}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ChangeWallpaperUnplash.Setup", "ChangeWallpaperUnplash.Setup\ChangeWallpaperUnplash.Setup.vdproj", "{6A7C9CC4-3F30-4C71-A03F-6EC2C4A5F1FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,8 @@ Global
 		{A10D1890-E31F-4BAD-980B-27261C3DFA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A10D1890-E31F-4BAD-980B-27261C3DFA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A10D1890-E31F-4BAD-980B-27261C3DFA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7C9CC4-3F30-4C71-A03F-6EC2C4A5F1FE}.Debug|Any CPU.ActiveCfg = Debug
+		{6A7C9CC4-3F30-4C71-A03F-6EC2C4A5F1FE}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

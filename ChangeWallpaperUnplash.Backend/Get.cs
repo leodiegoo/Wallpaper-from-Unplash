@@ -11,7 +11,6 @@ namespace ChangeWallpaperUnplash.Backend
     public class Get
     {
         private static List<string> listAPIS = new List<string>{ "YOUR_API_LIST" };
-        //private const string API_KEY = "14c5fdeca53f9644d67641b3bd77bbdadfc0b05f03c29f3a206605d68f654876";
         private static string apiUrl = "https://api.unsplash.com/photos/random?client_id=";
 
 
@@ -50,22 +49,6 @@ namespace ChangeWallpaperUnplash.Backend
             {
                 return false;
             }
-            //var json = await httpClient.GetStringAsync(apiUrl);
-            //var jsonObject = JObject.Parse(json);
-            //var imageUrl = (string)jsonObject["urls"]["full"];
-            //string directory = @"" + Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\LEOzD\\downloads";
-            //Directory.CreateDirectory(directory);
-            //string fileName = directory + @"\" + (string)jsonObject["id"] + ".jpg";
-            //try
-            //{
-            //    new WebClient().DownloadFile(imageUrl, fileName);
-            //    Wallpaper.Set(new Uri(fileName), Wallpaper.Style.Fill);
-            //}
-            //catch (Exception ex)
-            //{
-            //    return false;
-            //}
-            //return true;
 
             return false;
         }

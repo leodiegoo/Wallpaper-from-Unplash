@@ -1,0 +1,15 @@
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\bin\Release\ChangeWallpaperUnplash.Front.exe.config
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\bin\Release\ChangeWallpaperUnplash.Front.exe
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\bin\Release\ChangeWallpaperUnplash.Front.pdb
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\obj\Release\ChangeWallpaperUnplash.Front.frmPrincipal.resources
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\obj\Release\ChangeWallpaperUnplash.Front.Properties.Resources.resources
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\obj\Release\ChangeWallpaperUnplash.Front.csproj.GenerateResource.Cache
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\obj\Release\ChangeWallpaperUnplash.Front.exe
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\obj\Release\ChangeWallpaperUnplash.Front.pdb
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\bin\Release\ChangeWallpaperUnplash.Backend.dll
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\bin\Release\Newtonsoft.Json.dll
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\bin\Release\ChangeWallpaperUnplash.Utils.dll
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\bin\Release\ChangeWallpaperUnplash.Backend.pdb
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\bin\Release\Newtonsoft.Json.xml
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\bin\Release\ChangeWallpaperUnplash.Utils.pdb
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Front\obj\Release\ChangeWallpaperUnplash.Front.csprojResolveAssemblyReference.cache

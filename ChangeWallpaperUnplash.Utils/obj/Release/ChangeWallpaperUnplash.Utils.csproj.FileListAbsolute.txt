@@ -1,0 +1,4 @@
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Utils\bin\Release\ChangeWallpaperUnplash.Utils.dll
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Utils\bin\Release\ChangeWallpaperUnplash.Utils.pdb
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Utils\obj\Release\ChangeWallpaperUnplash.Utils.dll
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Utils\obj\Release\ChangeWallpaperUnplash.Utils.pdb

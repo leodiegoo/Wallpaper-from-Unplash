@@ -1,0 +1,9 @@
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Backend\bin\Release\ChangeWallpaperUnplash.Backend.dll
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Backend\bin\Release\ChangeWallpaperUnplash.Backend.pdb
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Backend\bin\Release\ChangeWallpaperUnplash.Utils.dll
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Backend\bin\Release\Newtonsoft.Json.dll
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Backend\bin\Release\ChangeWallpaperUnplash.Utils.pdb
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Backend\bin\Release\Newtonsoft.Json.xml
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Backend\obj\Release\ChangeWallpaperUnplash.Backend.csprojResolveAssemblyReference.cache
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Backend\obj\Release\ChangeWallpaperUnplash.Backend.dll
+C:\Users\leonardo.ITEBAURU\Dropbox\Projetos Visual Studio\ChangeWallpaperUnplash\ChangeWallpaperUnplash.Backend\obj\Release\ChangeWallpaperUnplash.Backend.pdb

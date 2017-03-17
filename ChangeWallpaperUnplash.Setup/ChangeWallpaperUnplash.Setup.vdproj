@@ -28,12 +28,6 @@
         "Entry"
         {
         "MsmKey" = "8:_2099B398520B5AE05E289C02B03BB8D1"
-        "OwnerKey" = "8:_FE6D7B057D9169C578300598ADAEF6EB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2099B398520B5AE05E289C02B03BB8D1"
         "OwnerKey" = "8:_4301F05787D149B0638FA167FE1817B3"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -41,6 +35,12 @@
         {
         "MsmKey" = "8:_4301F05787D149B0638FA167FE1817B3"
         "OwnerKey" = "8:_4A20B3144C3B45258A7168A76718888B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4301F05787D149B0638FA167FE1817B3"
+        "OwnerKey" = "8:_4DBECD1001BE4159BF990B4EE264B54C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -64,12 +64,6 @@
         "Entry"
         {
         "MsmKey" = "8:_8A5551901709969BC9597076174FE284"
-        "OwnerKey" = "8:_FE6D7B057D9169C578300598ADAEF6EB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8A5551901709969BC9597076174FE284"
         "OwnerKey" = "8:_4A20B3144C3B45258A7168A76718888B"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -87,44 +81,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9F3CF88FAD70B783BB67AB2C12F13D7E"
-        "OwnerKey" = "8:_FE6D7B057D9169C578300598ADAEF6EB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FE6D7B057D9169C578300598ADAEF6EB"
-        "OwnerKey" = "8:_4DBECD1001BE4159BF990B4EE264B54C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2099B398520B5AE05E289C02B03BB8D1"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4DBECD1001BE4159BF990B4EE264B54C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FE6D7B057D9169C578300598ADAEF6EB"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9F3CF88FAD70B783BB67AB2C12F13D7E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_4A20B3144C3B45258A7168A76718888B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4DBECD1001BE4159BF990B4EE264B54C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -145,6 +109,12 @@
         "OwnerKey" = "8:_94E26C9172F740CC4F2B21009CE51994"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_2099B398520B5AE05E289C02B03BB8D1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -163,6 +133,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -179,6 +165,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -383,68 +377,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9F3CF88FAD70B783BB67AB2C12F13D7E"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ChangeWallpaperUnplash.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_9F3CF88FAD70B783BB67AB2C12F13D7E"
-                    {
-                    "Name" = "8:ChangeWallpaperUnplash.Utils.DLL"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:ChangeWallpaperUnplash.Utils.DLL"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_310032BEBC354FDD80A0253DFC366F20"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FE6D7B057D9169C578300598ADAEF6EB"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ChangeWallpaperUnplash.Backend, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_FE6D7B057D9169C578300598ADAEF6EB"
-                    {
-                    "Name" = "8:ChangeWallpaperUnplash.Backend.DLL"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:ChangeWallpaperUnplash.Backend.DLL"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_310032BEBC354FDD80A0253DFC366F20"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -501,15 +433,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Wallpaper from Unplash by LEOZD"
-        "ProductCode" = "8:{FD91C615-BB8F-40BE-AEF5-6217CE245E2E}"
-        "PackageCode" = "8:{59DAA694-6A33-4FBE-918A-815515007D17}"
+        "ProductCode" = "8:{3E4739D6-5B9F-4AA3-BC4D-BC3D3FC194F1}"
+        "PackageCode" = "8:{440B6F94-AA7D-433F-9BD8-75E7E5C0A0D9}"
         "UpgradeCode" = "8:{D3166A11-E0D4-4A62-A429-0F2FED002437}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.2"
         "Manufacturer" = "8:LEOzD"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

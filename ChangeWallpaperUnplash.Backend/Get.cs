@@ -9,7 +9,7 @@ namespace ChangeWallpaperUnplash.Backend
 {
     public static class Get
     {
-        private const string API_KEY = "YOUR_KEY";
+        private const string API_KEY = "YOUR_API_KEY";
         private const string apiUrl = "https://api.unsplash.com/photos/random?client_id=" + API_KEY;
         public static async Task<bool> GetAsync()
         {

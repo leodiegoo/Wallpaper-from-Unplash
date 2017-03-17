@@ -38,8 +38,9 @@
             // notifyIcon
             // 
             this.notifyIcon.BalloonTipText = "Hey, estamos aqui, não se preocupe!";
+            this.notifyIcon.BalloonTipTitle = "Wallpaper from Unplash by LEOZD";
             this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
-            this.notifyIcon.Text = "notifyIcon1";
+            this.notifyIcon.Text = "Wallpaper from Unplash by LEOZD";
             this.notifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon_MouseDoubleClick);
             // 
             // timer

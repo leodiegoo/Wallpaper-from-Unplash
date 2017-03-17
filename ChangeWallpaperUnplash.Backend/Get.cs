@@ -9,14 +9,15 @@ namespace ChangeWallpaperUnplash.Backend
 {
     public static class Get
     {
-        private const string apiUrl = "https://api.unsplash.com/photos/random?client_id=14c5fdeca53f9644d67641b3bd77bbdadfc0b05f03c29f3a206605d68f654876";
+        private const string API_KEY = "YOUR_KEY";
+        private const string apiUrl = "https://api.unsplash.com/photos/random?client_id=" + API_KEY;
         public static async Task<bool> GetAsync()
         {
             var httpClient = new HttpClient();
             var json = await httpClient.GetStringAsync(apiUrl);
             var jsonObject = JObject.Parse(json);
             var imageUrl = (string)jsonObject["urls"]["full"];
-            Directory.CreateDirectory(@"C:\downloads");
+            Directory.CreateDirectory(@"" + AppDomain.CurrentDomain.BaseDirectory);
             string fileName = @"C:\downloads\" + (string)jsonObject["id"] + ".jpg";
             try
             {

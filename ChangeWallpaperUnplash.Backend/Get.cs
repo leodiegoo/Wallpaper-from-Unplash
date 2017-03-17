@@ -14,7 +14,7 @@ namespace ChangeWallpaperUnplash.Backend
         public static async Task<bool> GetAsync()
         {
             var httpClient = new HttpClient();
-            var json = await httpClient.GetStringAsync(apiUrl);
+            var json = await httpClient.GetStringAsync(apiUrl); ;
             var jsonObject = JObject.Parse(json);
             var imageUrl = (string)jsonObject["urls"]["full"];
             string directory = @"" + AppDomain.CurrentDomain.BaseDirectory + "downloads";

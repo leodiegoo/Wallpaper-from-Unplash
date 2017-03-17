@@ -48,8 +48,11 @@ namespace ChangeWallpaperUnplash.Front
         private async void timerFirst_Tick(object sender, EventArgs e)
         {
             if (timerFirst.Enabled)
-                await Buscar();            
-            else            
+            {
+                timerFirst.Enabled = false;
+                await Buscar();
+            }
+            else
                 timerFirst.Stop();                
             timerFirst.Enabled = false;
         }

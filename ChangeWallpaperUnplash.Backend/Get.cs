@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Net.Http;
@@ -7,29 +8,66 @@ using System.Threading.Tasks;
 
 namespace ChangeWallpaperUnplash.Backend
 {
-    public static class Get
+    public class Get
     {
-        private const string API_KEY = "YOUR_API_KEY";
-        private const string apiUrl = "https://api.unsplash.com/photos/random?client_id=" + API_KEY;
+        private static List<string> listAPIS = new List<string>{ "YOUR_API_LIST" };
+        //private const string API_KEY = "14c5fdeca53f9644d67641b3bd77bbdadfc0b05f03c29f3a206605d68f654876";
+        private static string apiUrl = "https://api.unsplash.com/photos/random?client_id=";
+
+
         public static async Task<bool> GetAsync()
         {
             var httpClient = new HttpClient();
-            var json = await httpClient.GetStringAsync(apiUrl); ;
-            var jsonObject = JObject.Parse(json);
-            var imageUrl = (string)jsonObject["urls"]["full"];
-            string directory = @"" + Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\LEOzD\\downloads";
-            Directory.CreateDirectory(directory);
-            string fileName = directory + @"\" + (string)jsonObject["id"] + ".jpg";
+            var response = new HttpResponseMessage();
             try
             {
-                new WebClient().DownloadFile(imageUrl, fileName);
-                Wallpaper.Set(new Uri(fileName), Wallpaper.Style.Fill);
+                for(int i = 0; i <= listAPIS.Count; i++)
+                {
+                    string newApiUrl = apiUrl + listAPIS[i];
+                    response = await httpClient.GetAsync(newApiUrl);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        httpClient = new HttpClient();
+                        var json = await httpClient.GetStringAsync(newApiUrl);
+                        var jsonObject = JObject.Parse(json);
+                        var imageUrl = (string)jsonObject["urls"]["full"];
+
+                        string directory = @"" + Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\LEOzD\\downloads";
+
+                        Directory.CreateDirectory(directory);
+
+                        string fileName = directory + @"\" + (string)jsonObject["id"] + ".jpg";
+
+                        new WebClient().DownloadFile(imageUrl, fileName);
+                        Wallpaper.Set(new Uri(fileName), Wallpaper.Style.Fill);
+
+                        return true;
+                    }
+                }
+                
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 return false;
             }
-            return true;
+            //var json = await httpClient.GetStringAsync(apiUrl);
+            //var jsonObject = JObject.Parse(json);
+            //var imageUrl = (string)jsonObject["urls"]["full"];
+            //string directory = @"" + Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\LEOzD\\downloads";
+            //Directory.CreateDirectory(directory);
+            //string fileName = directory + @"\" + (string)jsonObject["id"] + ".jpg";
+            //try
+            //{
+            //    new WebClient().DownloadFile(imageUrl, fileName);
+            //    Wallpaper.Set(new Uri(fileName), Wallpaper.Style.Fill);
+            //}
+            //catch (Exception ex)
+            //{
+            //    return false;
+            //}
+            //return true;
+
+            return false;
         }
 
         public static byte[] ImageToByteArray(System.Drawing.Image imageIn)

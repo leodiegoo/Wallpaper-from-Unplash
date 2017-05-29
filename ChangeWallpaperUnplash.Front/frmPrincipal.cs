@@ -40,11 +40,14 @@ namespace ChangeWallpaperUnplash.Front
         private async Task Buscar()
         {
             lblMsg.Text = "Buscando imagem...";
+            btnProximoWall.Enabled = false;
             var result = await Get.GetAsync();
             if (result)
+            {
                 lblMsg.Text = "Papel de parede alterado, próximo em breve :)";
+                btnProximoWall.Enabled = true;
+            }
         }
-
         private async void timerFirst_Tick(object sender, EventArgs e)
         {
             if (timerFirst.Enabled)
@@ -55,6 +58,11 @@ namespace ChangeWallpaperUnplash.Front
             else
                 timerFirst.Stop();                
             timerFirst.Enabled = false;
+        }
+
+        private async void btnProximoWall_Click(object sender, EventArgs e)
+        {
+            await Buscar();
         }
     }
 }

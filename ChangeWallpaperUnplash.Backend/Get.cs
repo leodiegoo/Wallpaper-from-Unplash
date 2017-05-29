@@ -10,7 +10,7 @@ namespace ChangeWallpaperUnplash.Backend
 {
     public class Get
     {
-        private static List<string> listAPIS = new List<string>{ "YOUR_API_LIST" };
+        private static List<string> listAPIS = new List<string>{ "14c5fdeca53f9644d67641b3bd77bbdadfc0b05f03c29f3a206605d68f654876", "64159d4c29231bea3cfc66dbd73e86576a350f54ec609b319dae6f8266b647d0" };
         private static string apiUrl = "https://api.unsplash.com/photos/random?client_id=";
 
 
@@ -34,6 +34,10 @@ namespace ChangeWallpaperUnplash.Backend
                         string directory = @"" + Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\LEOzD\\downloads";
 
                         Directory.CreateDirectory(directory);
+                        foreach (FileInfo file in new DirectoryInfo(directory).GetFiles())
+                        {
+                            file.Delete();
+                        }
 
                         string fileName = directory + @"\" + (string)jsonObject["id"] + ".jpg";
 
